@@ -11,7 +11,7 @@ x = 15
 // Error 
 // x = "Hi there"  
 
-// But there is "any" type for changind the value to other types
+// But there is "any" type for changing the value to other types
 
 let y : any = "Hi there"
 y = 20
