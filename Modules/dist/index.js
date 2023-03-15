@@ -1,5 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const utils_1 = require("./utils");
-console.log((0, utils_1.x)("Hello"));
-console.log((0, utils_1.power)(2, 5));
+import { HUMAN } from "./utils.js";
+// console.log(x("Hello"))
+// console.log(power(2,5))
+let me = new HUMAN("Ulas", 25);
+console.log(me.name);
+console.log(me.talk());

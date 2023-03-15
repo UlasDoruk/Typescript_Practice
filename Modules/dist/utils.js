@@ -1,11 +1,15 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.power = exports.x = void 0;
-function x(item) {
+export function x(item) {
     return item;
 }
-exports.x = x;
-function power(first, second) {
+export function power(first, second) {
     return Math.pow(first, second);
 }
-exports.power = power;
+export class HUMAN {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    talk() {
+        return `Hi there I am ${this.name} and I am ${this.age}`;
+    }
+}
